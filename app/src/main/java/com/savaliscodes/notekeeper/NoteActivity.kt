@@ -1,15 +1,15 @@
 package com.savaliscodes.notekeeper
 
 import android.os.Bundle
-import android.support.v7.app.AppCompatActivity
 import android.view.Menu
 import android.view.MenuItem
 import android.widget.ArrayAdapter
-
+import com.jwhh.notekeeper.R
+import androidx.appcompat.app.AppCompatActivity
 import kotlinx.android.synthetic.main.activity_main.*
 import kotlinx.android.synthetic.main.content_main.*
 
-class NoteActivity : AppCombatActivity {
+class NoteActivity : AppCompatActivity() {
     private var notePosition = POSITION_NOT_SET
     private var isNewNote = false
     private var isCancelling = false
