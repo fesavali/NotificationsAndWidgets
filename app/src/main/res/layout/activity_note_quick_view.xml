@@ -14,7 +14,7 @@
     android:layout_marginEnd="32dp"
     android:layout_marginStart="32dp"
     android:layout_marginTop="16dp"
-    android:textSize="18sp"
+    android:textSize="18dp"
     tools:text="Test Course Name"
     app:layout_constraintEnd_toEndOf="parent"
     app:layout_constraintStart_toStartOf="parent"
@@ -25,7 +25,7 @@
     android:layout_width="0dp"
     android:layout_height="wrap_content"
     android:layout_marginTop="8dp"
-    android:textSize="18sp"
+    android:textSize="18dp"
     tools:text="Test Title"
     app:layout_constraintEnd_toEndOf="@+id/course"
     app:layout_constraintStart_toStartOf="@+id/course"
@@ -36,7 +36,7 @@
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
     android:layout_marginTop="24dp"
-    android:text="@string/note"
+    android:text="Note"
     app:layout_constraintStart_toStartOf="@+id/course"
     app:layout_constraintTop_toBottomOf="@id/textNoteTitle"/>
 
@@ -51,16 +51,15 @@
     app:layout_constraintTop_toBottomOf="@+id/noteLabel" />
 
   <Button
-      android:id="@+id/deleteButton"
-      style="@style/Widget.AppCompat.Button"
-      android:layout_width="0dp"
-      android:layout_height="wrap_content"
-      android:layout_margin="14dp"
-      android:text="@string/delete"
-      app:layout_constraintBottom_toBottomOf="parent"
-      app:layout_constraintEnd_toEndOf="parent"
-      app:layout_constraintStart_toStartOf="parent"
-      app:layout_constraintTop_toBottomOf="@id/textNoteText"
-      app:layout_constraintVertical_bias="100" />
+    android:id="@+id/deleteButton"
+    style="@style/PrimaryButton"
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:layout_margin="14dp"
+    android:text="Delete"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintVertical_bias="100"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
