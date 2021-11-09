@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
   xmlns:tools="http://schemas.android.com/tools"
-  package="com.jwhh.notekeeper">
+  package="com.savalicodes.notekeeper">
 
   <uses-permission android:name="android.permission.VIBRATE" />
 
@@ -14,12 +14,12 @@
     android:theme="@style/AppTheme"
     tools:ignore="GoogleAppIndexingWarning">
     <activity
-      android:name=".NoteActivity"
+      android:name="com.savalicodes.notekeeper.NoteActivity"
       android:label="Edit Note"
-      android:parentActivityName=".ItemsActivity"
+      android:parentActivityName="com.savalicodes.notekeeper.ItemsActivity"
       android:theme="@style/AppTheme.NoActionBar" />
     <activity
-      android:name=".ItemsActivity"
+      android:name="com.savalicodes.notekeeper.ItemsActivity"
       android:label="@string/app_name"
       android:theme="@style/AppTheme.NoActionBar">
       <intent-filter>
@@ -29,16 +29,16 @@
       </intent-filter>
     </activity>
     <activity
-      android:name=".NoteQuickViewActivity"
+      android:name="com.savalicodes.notekeeper.NoteQuickViewActivity"
       android:excludeFromRecents="true"
       android:launchMode="singleTask"
       android:taskAffinity="" />
 
     <receiver
-      android:name=".NotificationBroadcastReceiver"
+      android:name="com.savalicodes.notekeeper.NotificationBroadcastReceiver"
       android:enabled="true"
       android:exported="false" />
-    <receiver android:name=".NoteKeeperAppWidget">
+    <receiver android:name="com.savalicodes.notekeeper.NoteKeeperAppWidget">
       <intent-filter>
         <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
       </intent-filter>
@@ -48,7 +48,7 @@
         android:resource="@xml/note_keeper_app_widget_info" />
     </receiver>
 
-    <service android:name=".AppWidgetRemoteViewsService"
+    <service android:name="com.savalicodes.notekeeper.AppWidgetRemoteViewsService"
       android:permission="android.permission.BIND_REMOTEVIEWS"/>
   </application>
 

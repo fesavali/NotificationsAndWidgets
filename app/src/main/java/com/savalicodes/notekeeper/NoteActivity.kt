@@ -1,4 +1,4 @@
-package com.jwhh.notekeeper
+package com.savalicodes.notekeeper
 
 import android.content.Intent
 import android.os.Bundle

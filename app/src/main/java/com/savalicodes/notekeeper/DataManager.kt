@@ -1,4 +1,4 @@
-package com.jwhh.notekeeper
+package com.savalicodes.notekeeper
 
 object DataManager {
     val courses = HashMap<String, CourseInfo>()

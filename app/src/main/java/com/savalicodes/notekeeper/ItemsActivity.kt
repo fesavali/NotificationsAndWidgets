@@ -1,4 +1,4 @@
-package com.jwhh.notekeeper
+package com.savalicodes.notekeeper
 
 import android.app.NotificationChannel
 import android.app.NotificationManager
