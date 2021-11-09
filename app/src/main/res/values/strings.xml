@@ -10,6 +10,6 @@
   <string name="nav_header_desc">Navigation header</string>
 
   <string name="reminder_body">Review %1$s</string>
-    <string name="note">Note</string>
-  <string name="delete">Delete</string>
+  <string name="appwidget_text">EXAMPLE</string>
+  <string name="add_widget">Add widget</string>
 </resources>
