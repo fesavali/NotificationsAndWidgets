@@ -81,4 +81,5 @@ object DataManager {
         note.comments.add(NoteComment("Lucy", "This is good to know", System.currentTimeMillis() - 10000))
         notes.add(note)
     }
+    // app data
 }
