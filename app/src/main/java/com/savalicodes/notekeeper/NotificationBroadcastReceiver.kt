@@ -20,6 +20,6 @@ class NotificationBroadcastReceiver : BroadcastReceiver() {
       ReminderNotification.notify(context,
           DataManager.notes[notePosition],
           notePosition)
-    }
+    } //broadcast receiver
   }
 }
